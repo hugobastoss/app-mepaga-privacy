@@ -56,6 +56,13 @@
     font-size: 0.85rem; color: var(--moss);
   }
   footer a { color: var(--moss); }
+  .idiomas { display: flex; gap: 0.5rem; margin-top: 1rem; }
+  .idiomas a {
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;
+    text-decoration: none; color: var(--moss); padding: 0.2rem 0.6rem;
+    border: 1px solid var(--line); border-radius: 999px;
+  }
+  .idiomas a.ativo { background: var(--forest); border-color: var(--forest); color: var(--paper); }
 </style>
 </head>
 <body>
@@ -64,7 +71,12 @@
 <header>
   <div class="app-nome">Me Paga</div>
   <h1>Política de Privacidade</h1>
-  <p class="atualizado">Última atualização: 26 de julho de 2026</p>
+  <p class="atualizado">Última atualização: 28 de julho de 2026</p>
+  <nav class="idiomas" aria-label="Idioma">
+    <a class="ativo" href="politica-de-privacidade.html">PT</a>
+    <a href="politica-de-privacidade-en.html">EN</a>
+    <a href="politica-de-privacidade-es.html">ES</a>
+  </nav>
 </header>
 
 <p>Esta Política de Privacidade descreve como o aplicativo <strong>Me Paga</strong> ("aplicativo"), desenvolvido e mantido por <strong>Hugo Bastos</strong> ("desenvolvedor", "nós"), trata as informações dos usuários. Ao usar o aplicativo, você concorda com as práticas descritas aqui.</p>
@@ -82,11 +94,13 @@
 </ul>
 <p>Essas informações são gravadas <strong>exclusivamente na memória do seu aparelho</strong>, em banco de dados local. Elas <strong>não são enviadas ao desenvolvedor nem a servidores de terceiros</strong>, e o aplicativo funciona integralmente sem conexão com a internet para essas finalidades.</p>
 <p><strong>Sobre os dados de seus clientes:</strong> ao cadastrar informações de terceiros (como nome e telefone de clientes), você é o responsável por esses dados e por utilizá-los de forma lícita, nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD). O aplicativo atua apenas como ferramenta de anotação local, equivalente a um caderno.</p>
+<p><strong>Compartilhamento por sua iniciativa:</strong> ao tocar em "Compartilhar" (por exemplo, para enviar uma cobrança ou o arquivo de backup manual), o aplicativo monta o texto ou arquivo localmente e abre o seletor de compartilhamento do próprio Android — a escolha do destinatário (WhatsApp, SMS, e-mail etc.) e o envio são feitos por você, fora do aplicativo. Não temos acesso a esse conteúdo nem ao que você faz com ele depois.</p>
 
 <h2>2. Backup no Google Drive (opcional, recurso Premium)</h2>
 <p>Se você ativar o backup automático, uma cópia dos seus dados é enviada para uma <strong>pasta privada da sua própria conta Google</strong> (área restrita de dados de aplicativo do Google Drive), visível somente para o aplicativo. O desenvolvedor <strong>não tem acesso</strong> a essa pasta nem ao conteúdo do backup.</p>
 <ul>
   <li>O envio só ocorre depois que você conecta sua conta Google manualmente;</li>
+  <li>Guardamos apenas o e-mail dessa conta, localmente no aparelho, só para exibir "conectado como" nas configurações — esse e-mail não é enviado a nós nem a terceiros;</li>
   <li>Você pode desconectar a conta a qualquer momento nas configurações do aplicativo;</li>
   <li>Você pode revogar o acesso do aplicativo à sua conta Google em <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>.</li>
 </ul>
@@ -115,6 +129,7 @@
   <li>Você pode redefinir ou excluir seu ID de publicidade nas configurações do Android (Configurações → Google → Anúncios);</li>
   <li>Assinantes do plano <strong>Premium</strong> não veem anúncios — nesse caso, o SDK de anúncios não é utilizado para exibição.</li>
 </ul>
+<p><strong>Consentimento (usuários do Espaço Econômico Europeu, Reino Unido e Califórnia):</strong> se você acessa o aplicativo a partir dessas regiões, uma tela de consentimento é exibida antes de qualquer anúncio personalizado ser carregado, seguindo o padrão <a href="https://support.google.com/admob/answer/10113005" rel="noopener">Google User Messaging Platform (UMP)</a>. Nela você escolhe se aceita anúncios personalizados ou prefere apenas anúncios não personalizados; a escolha fica salva no aparelho e pode ser revista a qualquer momento nas configurações de privacidade do próprio anúncio exibido (ícone "ⓘ" no canto do anúncio) ou reinstalando o aplicativo.</p>
 
 <h2>6. Compras e assinaturas</h2>
 <p>A assinatura Premium, quando contratada, é processada integralmente pelo <strong>Google Play</strong>. O desenvolvedor <strong>não tem acesso</strong> aos seus dados de pagamento (cartão, dados bancários etc.) — recebe do Google Play apenas a confirmação do status da assinatura. Consulte a <a href="https://policies.google.com/privacy" rel="noopener">política de privacidade do Google</a> para saber como o Google Play trata seus dados de pagamento.</p>
@@ -151,7 +166,7 @@
 <p>Para dúvidas sobre esta Política de Privacidade ou sobre seus dados:</p>
 <ul>
   <li><strong>Responsável:</strong> Hugo Bastos</li>
-  <li><strong>E-mail:</strong> <a href="mailto:hugo2014bastos@gmail.com">hugo2014bastos@gmail.com</a></li>
+  <li><strong>E-mail:</strong> <a href="mailto:hvcbappegames@gmail.com">hvcbappegames@gmail.com</a></li>
 </ul>
 
 <footer>
